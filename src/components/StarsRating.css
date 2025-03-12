@@ -1,0 +1,16 @@
+.stars-rating button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.stars-rating img {
+  width: 40px;
+  height: 40px;
+
+  opacity: 0.5;
+}
+
+.stars-rating button[aria-selected='true'] img {
+  opacity: 1;
+}

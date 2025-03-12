@@ -15,7 +15,9 @@ export default function CardReview () {
         <ul className="comentarios">
         {data.length === 0 ? (
           <p>Sem avaliações até o momento.</p>
-        ) : data.map(review => (
+        ) : data
+            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+            .map(review => (
             <>
               <li key={review.id}>
               <p className="nome">{review.name}</p>
