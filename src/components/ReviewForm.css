@@ -1,0 +1,35 @@
+.container-review {
+    background-color: #2B2B2B;
+    max-width: 540px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-review h1 {
+    margin-bottom: 30px;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.review-form input, textarea {
+    background-color: #8E8F8E;
+}
+
+.review-form input {
+    height: 36px;
+}
+
+.review-form button {
+    background-color: #5CC242;
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
